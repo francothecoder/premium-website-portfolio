@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Home — Francis Kwesa</title>
+<meta name="description" content="Home — Premium portfolio of Francis Kwesa">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Francis<span class="accent">.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <button id="darkModeToggle" class="btn btn-sm btn-outline-light ms-3">🌙</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero d-flex align-items-center">
+  <div class="container text-center hero-inner" data-aos="fade-up">
+    <div class="profile-wrap" data-tilt data-tilt-max="8">
+      <img class="profile" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=faces&fit=crop&w=600&h=600" alt="Profile of Francis Kwesa">
+    </div>
+    <h1 class="display-name mt-3" data-aos="fade-up" data-aos-delay="100">Hi, I'm <strong>Francis Kwesa</strong></h1>
+    <p class="subtitle" data-aos="fade-up" data-aos-delay="200"><span id="typed-text"></span></p>
+    <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+      <a href="portfolio.html" class="btn btn-primary btn-cta">See my work</a>
+      <a href="contact.html" class="btn btn-outline-light ms-2">Hire me</a>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6" data-aos="fade-right">
+        <h2>About Me</h2>
+        <p class="lead">I design and build modern, accessible interfaces for web & mobile.</p>
+        <ul>
+          <li><strong>Experience:</strong> 7+ years</li>
+          <li><strong>Projects:</strong> 120+</li>
+          <li><strong>Location:</strong> Zambia</li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?fit=crop&w=800&h=600" class="img-fluid rounded" alt="Design image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4" data-aos="fade-up"><h2>Services</h2><p class="text-muted">What I offer</p></div>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="flip-left"><div class="card card-shadow p-3 h-100"><h5>UI/UX Design</h5><p>Design systems, prototypes, accessibility audits.</p></div></div>
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="80"><div class="card card-shadow p-3 h-100"><h5>Frontend Dev</h5><p>Responsive, performance-first front-end development.</p></div></div>
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="160"><div class="card card-shadow p-3 h-100"><h5>Product Strategy</h5><p>User research, roadmaps, usability testing.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4" data-aos="fade-up"><h2>Selected Projects</h2><p class="text-muted">A few highlights</p></div>
+    <div class="row g-4" id="projectsGrid">
+      <div class="col-md-4" data-aos="zoom-in"><a href="portfolio.html" class="d-block project-card"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?fit=crop&w=1200&h=800" class="img-fluid" alt="Project 1"></a></div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="80"><a href="portfolio.html" class="d-block project-card"><img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?fit=crop&w=1200&h=800" class="img-fluid" alt="Project 2"></a></div>
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="160"><a href="portfolio.html" class="d-block project-card"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?fit=crop&w=1200&h=800" class="img-fluid" alt="Project 3"></a></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container text-center py-4">
+    <div class="mb-2">
+      <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="me-2"><i class="fab fa-dribbble"></i></a>
+      <a href="#" class="me-2"><i class="fab fa-github"></i></a>
+    </div>
+    <small>&copy; 2025 Francis Kwesa — Crafted with care.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
